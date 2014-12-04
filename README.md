@@ -41,6 +41,30 @@ Regardless, this command sets your *current server* -- see [the use command](/us
     Login successful, API key will expire on: 2014-11-27T03:36:55.266Z
 
 ***
+## Command Line Service
+```sh
+$ espressoadmin --help
+
+  Usage: espressoadmin [options] [command]
+
+  Commands:
+
+    login [options] <url>                                            Login to an Espresso Logic server
+    logout [options] [url]                                           Logout from the current server, or a specific server
+    use <alias>                                                      Use the specified server by default
+    status                                                           Show the current server, and any defined server aliases
+    project [options] <list|create|update|delete|use|import|export>  Administer projects. Actions are: list, create, update, delete, use, export
+    database [options] <list|create|update|delete>                   Administer databases within a project.
+    resource [options] <list>                                        Administer resources within a project.
+    rule [options] <list|create|delete>                              Administer rules within a project.
+    authprovider <list>                                              Administer authentication providers for an account.
+
+  Options:
+
+    -h, --help     output usage information
+    -V, --version  output the version number
+
+```
 ## Logout
 
     espressoadmin logout [-a <alias>]
