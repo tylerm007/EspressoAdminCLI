@@ -1,6 +1,6 @@
 # Authentication provider
 
-This suite of commands allows you to manipulate your Espresso Logic projects. Please see our Wiki [https://github.com/EspressoLogicCafe/StormpathAuthProvider/wiki/Installation-of-a-Custom-Authentication-Provider] for details on how to create and install a custom authentication provider (e.g. Active Directory, LDAP, SQL, LDAP, Stormpath, etc.)
+This suite of commands allows you to manipulate your Espresso Logic projects. Please see our [Wiki] (https://github.com/EspressoLogicCafe/StormpathAuthProvider/wiki/Installation-of-a-Custom-Authentication-Provider) for details on how to create and install a custom authentication provider (e.g. Active Directory, LDAP, SQL, LDAP, Stormpath, etc.)
 
 ***
 ## Project list
