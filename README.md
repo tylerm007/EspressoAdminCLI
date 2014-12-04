@@ -99,7 +99,7 @@ Prints which server is the current server (if any) and project, and what aliases
 
 ***
 ## Object-specific commands
-
+Follow the links below for detailed documentation on specific administrator commands.
 * [Projects](docs/project.md)
 * [Authentication providers](docs/authprovider.md)
 * [Databases](docs/dbase.md)
