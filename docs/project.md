@@ -1,8 +1,8 @@
 # Project
 
-This suite of commands allows you to manipulate your Espresso Logic projects.
+This suite of commands used to manipulate your Espresso Logic projects.  An Espresso server can contain one or more Projects. The project is a container that holds one or more database connections, resources, & business rules.  
 
-## Usage
+e## Usage
 ```sh
   Usage: project [options] <list|create|update|delete|use|import|export>
 
@@ -106,8 +106,9 @@ If the `--verbose` option is specified, the output will include all created obje
     espressoadmin project export --file <filename> [--project_name <name> | --url_name <url_name>]
          [--verbose]
     
-The export project exports the specified project into a JSON file.
-If the `filename` parameter is not specified, stdout is used.
+The export project exports the specified project into a JSON file.  The entire content of the project is stored in JSON format and is a complete backup of the database connections, resource definitions, and business rules as well as the customized settings for Live Browser.
+
+Note: If the `filename` parameter is not specified, stdout is used.
 
 The project can be specified either by its name or by its URL name.
 
