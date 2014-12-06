@@ -2,6 +2,22 @@
 
 This suite of commands allows you to manipulate your Espresso Logic projects.
 
+## Usage
+```sh
+  Usage: project [options] <list|create|update|delete|use|import|export>
+
+  Options:
+
+    -h, --help              output usage information
+    --project_name [name]   The name of the project
+    --url_name [url_name]   The name of the project
+    --status [status]       Optional: the status of the project, can be A (for Active) or I for (Inactive)
+    --authprovider [ident]  Optional: the ident of the authentication provider for the project
+    --comments [comments]   Optional: a description of the project
+    --file [file]           Optional: for import/export, the name of a file to read from/save to, if unspecified, use stdin/stdout
+    --verbose               Optional: whether to display detailed results, or just a summary
+
+```
 ***
 ## Project list
     espressoadmin project list
