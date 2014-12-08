@@ -6,7 +6,7 @@
 
 This is a command-line tool to administer Espresso Logic servers. It allows the creation,
 modification and deletion of many common objects, such as projects, database connection,
-resources and rules.
+resources and rules.  Once you have your server running (cloud or on-premise) you will create one or more projects.  Each project can have one or more database connections which will create instant REST API endpponts for tables, views, and stored procedures.  Resources are used to create new custom endpoints (e.g. nested documents) and can be based on tables, JavaScript, MongoDB, or custom SQL.  Logic is applied as derivations on columns attributes, validations, and events on transactions.  Security and authentication is added to secure your REST endpoints.  
 
 ## Installation
 
